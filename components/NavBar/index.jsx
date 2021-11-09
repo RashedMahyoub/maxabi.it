@@ -16,7 +16,7 @@ function classNames(...classes) {
 
 const NavBar = () => {
   const [state, setState] = useState("");
-  const [showDialog, setShowDialog] = useState(true)
+  const [showDialog, setShowDialog] = useState(false);
   const router = useRouter();
   const { locale } = router;
   const t = locale === "en" ? en : ar;
@@ -111,7 +111,10 @@ const NavBar = () => {
                             </div>
                             <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                               <div className="flow-root">
-                                <div className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100 cursor-pointer" onClick={() => setShowDialog(true)}>
+                                <div
+                                  className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100 cursor-pointer"
+                                  onClick={() => setShowDialog(true)}
+                                >
                                   <PhoneIcon className="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
                                   <span className="ml-3">{t["contact-us"]}</span>
                                 </div>
