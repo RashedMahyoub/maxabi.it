@@ -398,9 +398,6 @@ const en = {
   "apps-service-intro-text":
     "When your site is designed at Maxbi it is done by professional mobile design artists, we use the latest software to build a cutting edge design and apss suitable for all types of screens based on the latest technology mobile design.",
   soon: "Soon",
-  "review-1-title": "Talal",
-  "review-1-text":
-    "He thanked Mr. Abu Jawad and all those who work in my profit A respectable and distinguished management in all respects. Reception, dealing, and high interest in the client and customer satisfaction is their main goal, and thanks go to the programmer Rashid for the good handling and his interest in completing and implementing the project to the fullest 🌹",
   "maxabi-loc": "Behind Jarir Bookstore, King Abdullah Rd, King Abdullah Branch Road, directly,Madina ",
   "hosting-dimo": "Hosting Services are from Dimofinf",
   "marketing-intro":
@@ -449,6 +446,7 @@ const en = {
   VFX: "VFX",
   blog: "Blog",
   links: "Useful links",
+  start: "Get started",
 };
 
 export default en;

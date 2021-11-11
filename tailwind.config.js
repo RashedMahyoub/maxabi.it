@@ -10,6 +10,15 @@ module.exports = {
       colors: {
         light: "#F3F7F9",
       },
+      animation: {
+        "up-down": "updown 2s ease-in-out infinite alternate-reverse both",
+      },
+      keyframes: {
+        updown: {
+          "0%": { transform: "translateY(10px)" },
+          "100%": { transform: "translateY(-10px)" },
+        },
+      },
     },
   },
   variants: {

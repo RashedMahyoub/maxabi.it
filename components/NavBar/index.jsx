@@ -22,7 +22,7 @@ const NavBar = () => {
   const t = locale === "en" ? en : ar;
 
   const handleScroll = () => {
-    window.scrollY > 20 ? setState("bg-gray-800 rounded-lg") : setState("");
+    window.scrollY > 20 ? setState("bg-gray-800 rounded-lg mt-1") : setState("");
   };
 
   useEffect(() => {
@@ -39,7 +39,7 @@ const NavBar = () => {
   return (
     <Popover className="relative">
       <div className="fixed top-0 w-full z-10">
-        <div className={`max-w-7xl mx-auto px-4 sm:px-6 transition ease-out duration-200 ${state}`}>
+        <div className={`max-w-7xl mx-auto px-4 sm:px-6 transition ease-in-out duration-300 ${state}`}>
           <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
             <div className="flex-1 flex items-center lg:justify-start justify-between">
               <div className={`flex justify-start ${locale === "en" ? "mr-8" : "ml-8"}`}>
