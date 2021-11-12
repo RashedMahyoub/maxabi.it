@@ -6,6 +6,8 @@ import { Layout } from "../components";
 import AOS from "aos";
 import "../styles/globals.css";
 import "aos/dist/aos.css";
+import Particles from "react-tsparticles";
+import particles from "../utils/particles";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -13,6 +15,18 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+
+  if (process.browser) {
+    require("pathseg");
+  }
+
+  const particlesInit = (main) => {
+    console.log(main);
+  };
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
 
   return (
     <div
@@ -49,6 +63,8 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <NextNProgress color="#29D" startPosition={0.3} stopDelayMs={200} height={3} showOnShallow={true} />
+
+      <Particles id="tsparticles" options={particles} init={particlesInit} loaded={particlesLoaded} />
 
       <Layout>
         <Component {...pageProps} />

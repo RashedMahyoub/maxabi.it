@@ -447,6 +447,7 @@ const en = {
   blog: "Blog",
   links: "Useful links",
   start: "Get started",
+  who: "Who we are",
 };
 
 export default en;

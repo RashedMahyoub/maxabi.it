@@ -443,6 +443,7 @@ const ar = {
   blog: "مدونة",
   links: "روابط قد تهمك",
   start: "إبدا الان",
+  who: "من نحن",
 };
 
 export default ar;

@@ -68,14 +68,14 @@ const NavBar = () => {
                         className={classNames(
                           open ? "text-yellow-500" : "text-white",
                           locale === "ar" ? "mx-4" : "",
-                          "group rounded-md inline-flex items-center text-base font-bold hover:text-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                          "group rounded-md inline-flex items-center text-base font-bold hover:text-yellow-500"
                         )}
                       >
                         <span>{t.services}</span>
                         <ChevronDownIcon
                           className={classNames(
-                            open ? "text-gray-600" : "text-white",
-                            "ml-2 h-5 w-5 group-hover:text-gray-500"
+                            open ? "text-yellow-500" : "text-white",
+                            "ml-2 h-5 w-5 group-hover:text-yellow-500"
                           )}
                           aria-hidden="true"
                         />
@@ -182,7 +182,7 @@ const NavBar = () => {
                       <Link passHref key={item.name} href={item.href}>
                         <div className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
                           <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
-                          <span className="ml-3 text-base font-medium text-gray-900">
+                          <span className="mx-3 text-base font-bold text-gray-900">
                             {locale === "en" ? item.name : item.nameAr}
                           </span>
                         </div>
@@ -192,15 +192,20 @@ const NavBar = () => {
                 </div>
               </div>
               <div className="py-6 px-5 space-y-6">
-                <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                  <Link href="#" passHref>
-                    <div className="text-base cursor-pointer font-medium text-gray-900 hover:text-gray-700">
+                <div className="grid grid-cols-3 gap-y-4 gap-x-3">
+                  <Link href="/about" passHref>
+                    <div className="text-sm cursor-pointer font-bold p-1 text-center text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500">
                       {t.about}
                     </div>
                   </Link>
-                  <Link href="#" passHref>
-                    <div className="text-base cursor-pointer font-medium text-gray-900 hover:text-gray-700">
+                  <Link href="/projects" passHref>
+                    <div className="text-sm cursor-pointer font-bold p-1 text-center text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500">
                       {t.projects}
+                    </div>
+                  </Link>
+                  <Link href="/blog" passHref>
+                    <div className="text-sm cursor-pointer font-bold p-1 text-center text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500">
+                      {t.blog}
                     </div>
                   </Link>
                 </div>

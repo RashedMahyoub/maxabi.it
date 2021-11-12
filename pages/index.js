@@ -1,11 +1,9 @@
 import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import Particles from "react-tsparticles";
 import { ReviewsSlider, ContactsDialog, TeamSlider } from "../components";
 import ar from "../locale/ar";
 import en from "../locale/en";
-import particles from "../utils/particles";
 
 export default function Home() {
   const [showDialog, setShowDialog] = useState(false);
@@ -13,22 +11,8 @@ export default function Home() {
   const { locale } = router;
   const t = locale === "en" ? en : ar;
 
-  if (process.browser) {
-    require("pathseg");
-  }
-
-  const particlesInit = (main) => {
-    console.log(main);
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
-
   return (
     <div>
-      <Particles id="tsparticles" options={particles} init={particlesInit} loaded={particlesLoaded} />
-
       <main className="mt-32">
         <div className="max-w-7xl h-96 mx-auto md:grid md:grid-cols-3 md:gap-10 p-5">
           <div
@@ -36,7 +20,7 @@ export default function Home() {
               locale === "en" ? "mr-10 lg:text-left" : "ml-10 lg:text-right"
             }`}
           >
-            <div className="text-7xl font-bold text-yellow-400 my-5" data-aos="fade-right">
+            <div className="text-5xl font-bold text-yellow-400 my-5" data-aos="fade-right">
               {t.website}
             </div>
             <div className="text-2xl font-bold text-light my-5" data-aos="fade-right">
