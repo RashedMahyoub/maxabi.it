@@ -39,7 +39,7 @@ const NavBar = () => {
   return (
     <Popover className="relative">
       <div className="fixed top-0 w-full z-10">
-        <div className={`max-w-7xl mx-auto px-4 sm:px-6 transition ease-in-out duration-300 ${state}`}>
+        <div className={`max-w-7xl lg:mx-auto px-4 mx-1 sm:px-6 transition ease-in-out duration-300 ${state}`}>
           <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
             <div className="flex-1 flex items-center lg:justify-start justify-between">
               <div className={`flex justify-start ${locale === "en" ? "mr-8" : "ml-8"}`}>
