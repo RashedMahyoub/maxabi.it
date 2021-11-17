@@ -19,6 +19,9 @@ module.exports = {
           "100%": { transform: "translateY(-10px)" },
         },
       },
+      spacing: {
+        150: "40rem",
+      },
     },
   },
   variants: {

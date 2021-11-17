@@ -7,5 +7,19 @@ import TeamSlider from "./TeamSlider";
 import AboutCard from "./AboutCard";
 import ServiceCard from "./ServiceCard";
 import HostingCard from "./HostingCard";
+import MarketingCard from "./MarketingCard";
+import MarketingPackage from "./MarketingPackage";
 
-export { NavBar, Footer, Layout, ContactsDialog, ReviewsSlider, TeamSlider, AboutCard, ServiceCard, HostingCard };
+export {
+  NavBar,
+  Footer,
+  Layout,
+  ContactsDialog,
+  ReviewsSlider,
+  TeamSlider,
+  AboutCard,
+  ServiceCard,
+  HostingCard,
+  MarketingCard,
+  MarketingPackage,
+};

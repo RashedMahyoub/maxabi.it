@@ -27,7 +27,7 @@ const HostingCard = ({ plan, onClick, line, type }) => {
           1: (
             <div className="p-3 text-gray-400">
               <div className="text-white font-bold text-left mb-1 text-3xl">
-                {plan.price} <span className="text-xs">{t.monthly}</span>
+                {(parseFloat(plan.price) * 3.75).toFixed(0)} <span className="text-xs">{t.monthly}</span>
               </div>
 
               <div className="flex justify-between pt-1 border-t border-dashed border-gray-600 mb-2">
@@ -64,7 +64,7 @@ const HostingCard = ({ plan, onClick, line, type }) => {
           2: (
             <div className="p-3 text-gray-500">
               <div className="text-white font-bold text-left mb-1 text-3xl">
-                {plan.price} <span className="text-xs">{t.monthly}</span>
+                {(parseFloat(plan.price) * 3.75).toFixed(2)} <span className="text-xs">{t.monthly}</span>
               </div>
 
               <div className="flex justify-between pt-1 border-t border-dashed border-gray-600 mb-2">
@@ -101,7 +101,7 @@ const HostingCard = ({ plan, onClick, line, type }) => {
           3: (
             <div className="p-3 text-gray-400">
               <div className="text-white font-bold text-left mb-1 text-3xl">
-                {plan.price} <span className="text-xs">{t.monthly}</span>
+                {(parseFloat(plan.price) * 3.75).toFixed(2)} <span className="text-xs">{t.monthly}</span>
               </div>
 
               <div className="flex justify-between pt-1 border-t border-dashed border-gray-600 mb-2">
@@ -138,7 +138,7 @@ const HostingCard = ({ plan, onClick, line, type }) => {
           4: (
             <div className="p-3 text-gray-400">
               <div className="text-white font-bold text-left mb-1 text-3xl">
-                {plan.price} <span className="text-xs">{t.monthly}</span>
+                {(parseFloat(plan.price) * 3.75).toFixed(2)} <span className="text-xs">{t.monthly}</span>
               </div>
 
               <div className="flex justify-between pt-1 border-t border-dashed border-gray-600 mb-2">
@@ -186,7 +186,7 @@ const HostingCard = ({ plan, onClick, line, type }) => {
               <div className="text-yellow-500 font-bold text-center mb-3 text-3xl">{plan.title}</div>
 
               <div className="text-white font-bold text-left mb-1 text-3xl">
-                {plan.price} <span className="text-xs">{t.monthly}</span>
+                {(parseFloat(plan.price) * 3.75).toFixed(2)} <span className="text-xs">{t.monthly}</span>
               </div>
 
               <div className="flex justify-between pt-1 border-t border-dashed border-gray-600 mb-2">
@@ -215,7 +215,7 @@ const HostingCard = ({ plan, onClick, line, type }) => {
               <div className="text-yellow-500 font-bold text-center mb-3 text-3xl">{plan.title}</div>
 
               <div className="text-white font-bold text-left mb-1 text-3xl">
-                {plan.price} <span className="text-xs">{t.monthly}</span>
+                {(parseFloat(plan.price) * 3.75).toFixed(2)} <span className="text-xs">{t.monthly}</span>
               </div>
 
               <div className="flex justify-between pt-1 border-t border-dashed border-gray-600 mb-2">

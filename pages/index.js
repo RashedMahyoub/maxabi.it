@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <div>
       <main className="mt-32">
-        <div className="max-w-7xl h-96 mx-auto md:grid md:grid-cols-3 md:gap-10 p-5">
+        <div className="max-w-7xl lg:h-96 mx-auto md:grid md:grid-cols-3 md:gap-10 p-5">
           <div
             className={`col-span-2 flex flex-col justify-center text-center ${
-              locale === "en" ? "mr-10 lg:text-left" : "ml-10 lg:text-right"
+              locale === "en" ? "lg:mr-10 lg:text-left" : "lg:ml-10 lg:text-right"
             }`}
           >
             <div className="text-5xl font-bold text-yellow-400 my-5" data-aos="fade-right">

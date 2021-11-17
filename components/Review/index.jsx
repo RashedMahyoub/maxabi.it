@@ -8,7 +8,7 @@ const Review = ({ name, message, onPrev, onNext, hasPrev, hasNext }) => {
   const { locale } = router;
 
   return (
-    <div className="p-4 bg-gray-800 rounded-xl" style={{ width: 600 }}>
+    <div className="p-4 bg-gray-800 rounded-xl lg:w-150  mx-3 lg:mx-0">
       {locale === "en" ? (
         <FaQuoteRight className="float-right" color="silver" size={20} />
       ) : (

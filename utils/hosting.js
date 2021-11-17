@@ -18,7 +18,7 @@ const liPacks = [
     title: "استضافة بلوجر",
     titleEn: "Blogger Hosting",
     icon: FaPencilAlt,
-    price: "$4.5",
+    price: "4.5",
     ram: "256 MB",
     cpu: "600 MHZ",
     domain: "Unlimited",
@@ -30,7 +30,7 @@ const liPacks = [
     title: "استضافة غير محدودة",
     titleEn: "Unlimited Hosting",
     icon: FaRocket,
-    price: "$7.5",
+    price: "7.5",
     ram: "750 MB",
     cpu: "1500 MHZ",
     domain: "Unlimited",
@@ -42,7 +42,7 @@ const liPacks = [
     title: "استضافة احترافية",
     titleEn: "Professional",
     icon: FaBriefcase,
-    price: "$16",
+    price: "16",
     ram: "1200 MB",
     cpu: "2000 MHZ",
     domain: "Unlimited",
@@ -54,7 +54,7 @@ const liPacks = [
     title: "استضافة إكستريم",
     titleEn: "Extreme Hosting",
     icon: FaMagic,
-    price: "$20",
+    price: "20",
     ram: "1600 MB",
     cpu: "2400 MHZ",
     domain: "Unlimited",
@@ -69,7 +69,7 @@ const winPacks = [
     title: "استضافة اقتصادية",
     titleEn: "Economy Hosting",
     icon: FaWindows,
-    price: "$7.75",
+    price: "7.75",
     email: "Unlimited",
     addon: "1",
     space: "3 GB",
@@ -81,7 +81,7 @@ const winPacks = [
     title: "استضافة الأعمال",
     titleEn: "Business Hosting",
     icon: FaWindows,
-    price: "$11.75",
+    price: "11.75",
     email: "Unlimited",
     addon: "5",
     space: "10 GB",
@@ -93,7 +93,7 @@ const winPacks = [
     title: "استضافة المؤسسة",
     titleEn: "Enterprise Hosting",
     icon: FaWindows,
-    price: "$16.75",
+    price: "16.75",
     email: "Unlimited",
     addon: "Unlimited",
     space: "30 GB",
@@ -105,7 +105,7 @@ const winPacks = [
     title: "استضافة الشركات",
     titleEn: "Corporation Hosting",
     icon: FaWindows,
-    price: "$20.75",
+    price: "20.75",
     email: "Unlimited",
     addon: "Unlimited",
     space: "45 GB",
@@ -120,7 +120,7 @@ const saLiPacks = [
     title: "أعمال اقتصادية",
     titleEn: "Economy Business",
     icon: FaHandHoldingUsd,
-    price: "$23",
+    price: "23",
     ram: "256 MB",
     cpu: "600 MHZ",
     traffic: "15 GB",
@@ -132,7 +132,7 @@ const saLiPacks = [
     title: "أعمال متوسطة",
     titleEn: "Medium Business",
     icon: FaMoneyBillWave,
-    price: "$45",
+    price: "45",
     ram: "512 MB",
     cpu: "1200 MHZ",
     traffic: "25 GB",
@@ -144,7 +144,7 @@ const saLiPacks = [
     title: "أعمال كبرى",
     titleEn: "Grand Business",
     icon: FaChartLine,
-    price: "$68",
+    price: "68",
     ram: "786 MB",
     cpu: "2000 MHZ",
     traffic: "40 GB",
@@ -156,7 +156,7 @@ const saLiPacks = [
     title: "أعمال النخبة",
     titleEn: "Elite Business",
     icon: FaHandshake,
-    price: "$90",
+    price: "90",
     ram: "1024 MB",
     cpu: "2000 MHZ",
     traffic: "50 GB",
@@ -171,21 +171,21 @@ const saWinPacks = [
     title: "استضافة اقتصادية",
     titleEn: "Savings Plan",
     icon: FaWindows,
-    price: "$16",
+    price: "16",
     ...winPacks[0],
   },
   {
     title: "استضافة الأعمال",
     titleEn: "Starting Plan",
     icon: FaWindows,
-    price: "$35",
+    price: "35",
     ...winPacks[1],
   },
   {
     title: "استضافة المؤسسة",
     titleEn: "The Launch Plan",
     icon: FaWindows,
-    price: "$52",
+    price: "52",
     email: "Unlimited",
     ...winPacks[2],
   },
@@ -193,7 +193,7 @@ const saWinPacks = [
     title: "استضافة الشركات",
     titleEn: "Expansion Plan",
     icon: FaWindows,
-    price: "$70",
+    price: "70",
     ...winPacks[3],
   },
 ];
@@ -218,7 +218,7 @@ export const shared = [
         type: 1,
         packages: [
           ...liPacks.map((pack, i) => {
-            let p = i === 0 ? "$3.5" : i === 1 ? "$6.5" : i === 2 ? "$14" : "$18";
+            let p = i === 0 ? "3.5" : i === 1 ? "6.5" : i === 2 ? "14" : "18";
             return { ...pack, price: p };
           }),
         ],
@@ -231,7 +231,7 @@ export const shared = [
         type: 1,
         packages: [
           ...liPacks.map((pack, i) => {
-            let p = i === 0 ? "$1.99" : i === 1 ? "$5.8" : i === 2 ? "$10" : "$14";
+            let p = i === 0 ? "1.99" : i === 1 ? "5.8" : i === 2 ? "10" : "14";
             return { ...pack, price: p };
           }),
         ],
@@ -257,7 +257,7 @@ export const shared = [
         type: 2,
         packages: [
           ...winPacks.map((pack, i) => {
-            let p = i === 0 ? "$6.50" : i === 1 ? "$10.50" : i === 2 ? "$15.50" : "$19.50";
+            let p = i === 0 ? "6.50" : i === 1 ? "10.50" : i === 2 ? "15.50" : "19.50";
             return { ...pack, price: p };
           }),
         ],
@@ -270,7 +270,7 @@ export const shared = [
         type: 2,
         packages: [
           ...winPacks.map((pack, i) => {
-            let p = i === 0 ? "$5.25" : i === 1 ? "$9.25" : i === 2 ? "$14.25" : "$18.25";
+            let p = i === 0 ? "5.25" : i === 1 ? "9.25" : i === 2 ? "14.25" : "18.25";
             return { ...pack, price: p };
           }),
         ],
@@ -300,7 +300,7 @@ export const shared = [
             type: 3,
             packages: [
               ...saLiPacks.map((pack, i) => {
-                let p = i === 0 ? "$21" : i === 1 ? "$41" : i === 2 ? "$62" : "$82";
+                let p = i === 0 ? "21" : i === 1 ? "41" : i === 2 ? "62" : "82";
                 return { ...pack, price: p };
               }),
             ],
@@ -313,7 +313,7 @@ export const shared = [
             type: 3,
             packages: [
               ...saLiPacks.map((pack, i) => {
-                let p = i === 0 ? "$17" : i === 1 ? "$35" : i === 2 ? "$52" : "$70";
+                let p = i === 0 ? "17" : i === 1 ? "35" : i === 2 ? "52" : "70";
                 return { ...pack, price: p };
               }),
             ],
@@ -339,7 +339,7 @@ export const shared = [
             type: 2,
             packages: [
               ...saWinPacks.map((pack, i) => {
-                let p = i === 0 ? "$21" : i === 1 ? "$41" : i === 2 ? "$62" : "$82";
+                let p = i === 0 ? "21" : i === 1 ? "41" : i === 2 ? "62" : "82";
                 return { ...pack, price: p };
               }),
             ],
@@ -352,7 +352,7 @@ export const shared = [
             type: 2,
             packages: [
               ...saWinPacks.map((pack, i) => {
-                let p = i === 0 ? "$16" : i === 1 ? "$35" : i === 2 ? "$52" : "$70";
+                let p = i === 0 ? "16" : i === 1 ? "35" : i === 2 ? "52" : "70";
                 return { ...pack, price: p };
               }),
             ],
@@ -370,7 +370,7 @@ const singlePacks = [
   {
     title: "Xeon E3-1230v2",
     icon: SiDell,
-    price: "$60",
+    price: "60",
     processor: "Xeon E3-1230v2",
     ram: "16 GB",
     hdd: "sxeon1-single-free-hdd",
@@ -383,7 +383,7 @@ const singlePacks = [
   {
     title: "Xeon E-2274G",
     icon: SiDell,
-    price: "$85",
+    price: "85",
     processor: "Xeon E-2274G",
     ram: "32 GB",
     hdd: "4x1TB SATA",
@@ -399,7 +399,7 @@ const dualPacks = [
   {
     title: "Xeon E5-2420",
     icon: SiDell,
-    price: "$120",
+    price: "120",
     processor: "Xeon E5-2420",
     ram: "32 GB",
     hdd: "sxeon1-dual-free-hdd",
@@ -412,7 +412,7 @@ const dualPacks = [
   {
     title: "Xeon Gold 5218",
     icon: SiDell,
-    price: "$310",
+    price: "310",
     processor: "Xeon Gold 5218",
     ram: "128 GB",
     hdd: "2 x 960 GB SSD",
@@ -442,7 +442,7 @@ export const dedicated = [
         url: "https://www.dimofinf.net/Dedicated-servers",
         packages: [
           ...singlePacks.map((pack, i) => {
-            let p = i === 0 ? "$130" : "$160";
+            let p = i === 0 ? "130" : "160";
             return { ...pack, price: p, software: "cPanel Premier Solo" };
           }),
         ],
@@ -466,7 +466,7 @@ export const dedicated = [
         url: "https://www.dimofinf.net/Dedicated-servers",
         packages: [
           ...dualPacks.map((pack, i) => {
-            let p = i === 0 ? "$200" : "$390";
+            let p = i === 0 ? "200" : "390";
             return { ...pack, price: p, software: "cPanel Premier Solo" };
           }),
         ],
@@ -481,7 +481,7 @@ export const dedicated = [
 export const cloud = [
   {
     icon: FaCloud,
-    price: "$40",
+    price: "40",
     title: "X1",
     url: "https://www.dimofinf.net/Cloud-Servers",
     cpu: "3 core",
@@ -491,7 +491,7 @@ export const cloud = [
   },
   {
     icon: FaCloud,
-    price: "$50",
+    price: "50",
     title: "X2",
     url: "https://www.dimofinf.net/Cloud-Servers",
     cpu: "4 core",
@@ -501,7 +501,7 @@ export const cloud = [
   },
   {
     icon: FaCloud,
-    price: "$80",
+    price: "80",
     title: "X3",
     url: "https://www.dimofinf.net/Cloud-Servers",
     cpu: "4 core",
@@ -511,7 +511,7 @@ export const cloud = [
   },
   {
     icon: FaCloud,
-    price: "$90",
+    price: "90",
     title: "X4",
     url: "https://www.dimofinf.net/Cloud-Servers",
     cpu: "8 core",
@@ -521,7 +521,7 @@ export const cloud = [
   },
   {
     icon: FaCloud,
-    price: "$100",
+    price: "100",
     title: "X5",
     url: "https://www.dimofinf.net/Cloud-Servers",
     cpu: "8 core",
@@ -531,7 +531,7 @@ export const cloud = [
   },
   {
     icon: FaCloud,
-    price: "$130",
+    price: "130",
     title: "X6",
     url: "https://www.dimofinf.net/Cloud-Servers",
     cpu: "16 core",
@@ -548,7 +548,7 @@ export const cloud = [
 export const vps = [
   {
     icon: GrVirtualMachine,
-    price: "$29",
+    price: "29",
     title: "VPS 1",
     url: "https://www.dimofinf.net/vps_servers",
     cpu: "2 core",
@@ -558,7 +558,7 @@ export const vps = [
   },
   {
     icon: GrVirtualMachine,
-    price: "$40",
+    price: "40",
     title: "VPS 2",
     url: "https://www.dimofinf.net/vps_servers",
     cpu: "2 core",
@@ -568,7 +568,7 @@ export const vps = [
   },
   {
     icon: GrVirtualMachine,
-    price: "$50",
+    price: "50",
     title: "VPS 3",
     url: "https://www.dimofinf.net/vps_servers",
     cpu: "2 core",

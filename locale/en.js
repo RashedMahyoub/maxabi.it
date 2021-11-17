@@ -42,7 +42,7 @@ const en = {
     "Start NOW with the most powerful shared hosting with unlimited features (space + traffic + database)",
   "shared-hosting-text": "Shared hosting plans Yearly",
   order: "Order Now",
-  monthly: "Monthly",
+  monthly: "SAR Monthly",
   ram: "RAM",
   cpu: "CPU",
   domain: "Domains",
@@ -134,13 +134,15 @@ const en = {
   "hopin-text":
     "An application for people who travel alot alone and want some company or people who want to travel but can’t find a ride. You can ask and people will respond.",
   cryptobud: "Cryptobud",
+  "apps-service-intro-text":
+    "When your app is designed at Maxabi it is done by professional mobile design artists, we use the latest software to build a cutting edge design and apps suitable for all types of screens based on the latest technology mobile design.",
   "cryptobud-text": "It is an android application that encrypts messages using few encryption algorithms.",
   "apps-service-title": "CREATE YOUR MOBILE APPS",
   "apps-service-description":
     "Our team specialized in designing mobile applications for each of the Android or iOS operating systems is able to help you transform your vision into a tangible reality that will be the beginning of an complete impressive success.Our team specialized in designing mobile applications for each of the Android or iOS operating systems is able to help you transform your vision into a tangible reality that will be the beginning of an complete impressive success.",
   "apps-service-intro-title": "How is the method of implementation?",
-  "apps-service-intro-text":
-    "When your site is designed at Maxbi it is done by professional mobile design artists, we use the latest software to build a cutting edge design and apss suitable for all types of screens based on the latest technology mobile design.",
+  "web-service-intro-text":
+    "When your site is designed at Maxabi it is done by professional web design artists, we use the latest software to build a cutting edge design and websites suitable for all types of screens based on the latest technology web design.",
   soon: "Soon",
   "maxabi-loc": "Behind Jarir Bookstore, King Abdullah Rd, King Abdullah Branch Road, directly,Madina ",
   "hosting-dimo": "Hosting Services are from Dimofinf",
@@ -193,6 +195,11 @@ const en = {
   start: "Get started",
   who: "Who we are",
   "servies-text": "We provide many services that will help you grow your business in a professional and scalable way.",
+  "app-dev":
+    "It is the final work to implement the application design and programming to produce the final site in all its details as desired by the client",
+  "app-design": "Application Design",
+  "app-design-text":
+    "Work on designs UI-UX with full professional attention to design and choose the exact colors and use the latest app design techniques",
 };
 
 export default en;

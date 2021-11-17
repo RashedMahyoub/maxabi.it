@@ -8,7 +8,7 @@ const TeamMember = ({ name, message, image, job, onPrev, onNext, hasPrev, hasNex
   const { locale } = router;
 
   return (
-    <div className="p-4 bg-gray-800 rounded-xl" style={{ width: 600 }}>
+    <div className="p-4 bg-gray-800 rounded-xl lg:w-150 mx-3 lg:mx-0">
       <div className="w-24 h-24 relative mx-auto">
         <Image className="rounded-full" src={image} alt={name} layout="fill" objectFit="cover" />
       </div>
