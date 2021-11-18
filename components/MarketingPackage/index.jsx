@@ -1,6 +1,6 @@
 import React from "react";
 
-const ServiceCard = ({ title, description, price }) => {
+const MarketingPackage = ({ title, description, price }) => {
   return (
     <div
       className="p-4 bg-gray-800 rounded-3xl my-5 lg:my-0 
@@ -13,4 +13,4 @@ const ServiceCard = ({ title, description, price }) => {
   );
 };
 
-export default ServiceCard;
+export default MarketingPackage;

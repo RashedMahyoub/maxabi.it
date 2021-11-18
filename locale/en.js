@@ -125,18 +125,8 @@ const en = {
   "dev-text":
     "It is the final work to implement the website design and programming to produce the final site in all its details as desired by the client",
   projects: "Our Projects",
-  ula: "Ula",
-  "ula-text":
-    "An app that provides all the details you need to enjoy your staying in a city. it provides information like cafes, restaurants, .... etc. it also has trip planner to plan your trip.",
-  kutubanah: "kutuphanah",
-  "kutubanah-text": "A website selling and buying digital books",
-  hopin: "HopIn",
-  "hopin-text":
-    "An application for people who travel alot alone and want some company or people who want to travel but can’t find a ride. You can ask and people will respond.",
-  cryptobud: "Cryptobud",
   "apps-service-intro-text":
     "When your app is designed at Maxabi it is done by professional mobile design artists, we use the latest software to build a cutting edge design and apps suitable for all types of screens based on the latest technology mobile design.",
-  "cryptobud-text": "It is an android application that encrypts messages using few encryption algorithms.",
   "apps-service-title": "CREATE YOUR MOBILE APPS",
   "apps-service-description":
     "Our team specialized in designing mobile applications for each of the Android or iOS operating systems is able to help you transform your vision into a tangible reality that will be the beginning of an complete impressive success.Our team specialized in designing mobile applications for each of the Android or iOS operating systems is able to help you transform your vision into a tangible reality that will be the beginning of an complete impressive success.",
@@ -161,9 +151,6 @@ const en = {
   "gold-package-text":
     "Post 5 posts per week, 20 posts per month. Content writing, Post design, motion graphics & Promote 5 ad designs",
   "gold-package-money": "3600 SR",
-  mokhzn: "Mokhzn Website",
-  "mokhzn-text":
-    "Mokhzn is a platform that allows you to buy and display stored and clean cars unless they exceed a distance of 100,000 km with a commission for the site. Here you will find your suitable choice of stored cars and the right place to display your stored car.",
   zaki: "Zaki Brahmi",
   "zaki-job": "Back-end developer",
   "zaki-text": "Never lose hope. Move forward towards success",

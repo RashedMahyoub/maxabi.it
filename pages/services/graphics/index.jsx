@@ -4,11 +4,6 @@ import en from "../../../locale/en";
 import ar from "../../../locale/ar";
 import Image from "next/image";
 import { MarketingCard } from "../../../components";
-import { GiPlatform } from "react-icons/gi";
-import { BsCodeSlash, BsFillBarChartFill } from "react-icons/bs";
-import { AiOutlineRadarChart } from "react-icons/ai";
-import { MdDesignServices, MdOutlineDeveloperMode } from "react-icons/md";
-import { GoVerified } from "react-icons/go";
 
 const Index = () => {
   const router = useRouter();
@@ -30,7 +25,7 @@ const Index = () => {
           </div>
         </div>
         <div className="relative" data-aos="fade-left">
-          <Image src="/ai-img.svg" alt="services" layout="fill" objectFit="contain" />
+          <Image src="/undraw_3d_modeling_h60h.svg" alt="services" layout="fill" objectFit="contain" />
         </div>
       </div>
 
