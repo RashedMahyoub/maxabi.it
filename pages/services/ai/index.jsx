@@ -45,7 +45,7 @@ const Index = () => {
         <MarketingCard icon={<Image src="/analyze 1.svg" alt="1" height={40} width={40} />} text={t["ai-data"]} />
         <MarketingCard icon={<Image src="/idea 1.svg" alt="1" height={40} width={40} />} text={t["ai-business"]} />
         <MarketingCard icon={<Image src="/analysis 1.svg" alt="1" height={40} width={40} />} text={t["ai-money"]} />
-        <MarketingCard icon={<Image src="/coding (1) 1.svg" alt="1" height={40} width={40} />} text={t["ai-machine"]} />
+        <MarketingCard icon={<Image src="/ais.svg" alt="1" height={40} width={40} />} text={t["ai-machine"]} />
       </div>
     </main>
   );
