@@ -10,6 +10,7 @@ import HostingCard from "./HostingCard";
 import MarketingCard from "./MarketingCard";
 import MarketingPackage from "./MarketingPackage";
 import ProjectCard from "./ProjectCard";
+import Blog from "./Blog";
 
 export {
   NavBar,
@@ -24,4 +25,5 @@ export {
   MarketingCard,
   MarketingPackage,
   ProjectCard,
+  Blog,
 };
