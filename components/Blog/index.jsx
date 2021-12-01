@@ -6,8 +6,8 @@ const Blog = ({ title, titleEn, date, children }) => {
   const { locale } = router;
 
   return (
-    <div className="bg-gray-800 rounded-md p-5">
-      <div className="flex justify-between">
+    <div className="bg-gray-800 rounded-md p-5 mx-3 lg:mx-0">
+      <div className="flex justify-between flex-col lg:flex-row">
         <div className="text-2xl text-blue-500 font-bold mb-4">{locale === "en" ? titleEn : title}</div>
         <div className="text-sm text-gray-500">{date.toLocaleString()}</div>
       </div>

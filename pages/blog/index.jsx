@@ -68,14 +68,14 @@ const Index = () => {
                   </thead>
                   <tbody className="bg-gray-700 divide-y divide-gray-500">
                     <tr>
-                      <td className="px-6 py-4 whitespace-nowrap">
+                      <td className="px-6 py-4">
                         <div className="text-sm text-white">
                           {locale === "en"
                             ? "Twitter can censor any account or tweet"
                             : "يمكن لتويتر أن يفرض رقابة على أي حساب أو تغريدة"}
                         </div>
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
+                      <td className="px-6 py-4">
                         <div className="text-sm text-white">
                           {locale === "en"
                             ? "Web3 tweets would be uncensorable because control is decentralized"
@@ -84,14 +84,14 @@ const Index = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td className="px-6 py-4 whitespace-nowrap">
+                      <td className="px-6 py-4">
                         <div className="text-sm text-white">
                           {locale === "en"
                             ? "Payment service may decide to not allow payments for certain types of work"
                             : "قد تقرر خدمة الدفع عدم السماح بمدفوعات لأنواع معينة من العمل"}
                         </div>
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
+                      <td className="px-6 py-4 ">
                         <div className="text-sm text-white">
                           {locale === "en"
                             ? "Web3 payment apps require no personal data and can not prevent payments."
@@ -153,25 +153,25 @@ const Index = () => {
 
         <div className="mt-3 text-yellow-300">
           [1]{" "}
-          <a href="https://www.freecodecamp.org/news/what-is-web3/">https://www.freecodecamp.org/news/what-is-web3/</a>{" "}
+          <a href="https://www.freecodecamp.org/news/what-is-web3/">https://www.freecodecamp.org/news/what-is-web3/</a>
         </div>
 
         <div className="mt-3 text-yellow-300">
-          [2] <a href="https://en.wikipedia.org/wiki/Web3">https://en.wikipedia.org/wiki/Web3</a>{" "}
+          [2] <a href="https://en.wikipedia.org/wiki/Web3">https://en.wikipedia.org/wiki/Web3</a>
         </div>
 
-        <div className="mt-3 text-yellow-300">
+        <div className="mt-3 text-yellow-300 break-words">
           [3]{" "}
           <a href="https://www.investopedia.com/terms/b/blockchain.asp">
             https://www.investopedia.com/terms/b/blockchain.asp
-          </a>{" "}
+          </a>
         </div>
 
-        <div className="mt-3 text-yellow-300">
+        <div className="mt-3 text-yellow-300 break-words">
           [4]{" "}
           <a href="https://ethereum.org/en/developers/docs/web2-vs-web3/">
             https://ethereum.org/en/developers/docs/web2-vs-web3/
-          </a>{" "}
+          </a>
         </div>
       </Blog>
     </main>
