@@ -86,15 +86,6 @@ export const reviews = [
     messageEn:
       "thanks Mr. Abu Jawad and all those who work in my profit A respectable and distinguished management in all respects. Reception, dealing, and high interest in the client and customer satisfaction is their main goal, and thanks go to the programmer Rashed for the good handling and his interest in completing and implementing the project to the fullest 🌹",
   },
-  {
-    id: 1,
-    name: "صالح",
-    nameEn: "Saleh",
-    message:
-      "شكر  الاستاذ ابو جواد و كل القائمين و العاملين في مكسبي ادارة محترمه و متميزه من جميع النواحي استقبال و تعامل و الاهتمام العالي في العميل و رضى العميل هو الهدف الرئيسي لديهم ، و الشكر موصول للمبرمج راشد على حسن التعامل و اهتمامه في انجاز و تنفيذ المشروع على اكمل وجه",
-    messageEn:
-      "thanks Mr. Abu Jawad and all those who work in my profit A respectable and distinguished management in all respects. Reception, dealing, and high interest in the client and customer satisfaction is their main goal, and thanks go to the programmer Rashid for the good handling and his interest in completing and implementing the project to the fullest 🌹",
-  },
 ];
 
 export const team = [
