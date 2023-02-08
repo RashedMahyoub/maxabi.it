@@ -14,7 +14,7 @@ const Index = () => {
     <main className="mt-40 max-w-7xl mx-auto">
       <Blog title="ماهو الWeb 3" titleEn="What is Web 3?" date={new Date("2021-11-21 5:22 PM")}>
         <div className="w-full h-64 relative mb-5">
-          <Image className="rounded-md" src="/web3.png" height={200} alt="cover" layout="fill" objectFit="cover" />
+          <Image className="rounded-md" src="/web3.png" fill style={{ objectFit: "cover" }} alt="cover" />
         </div>
 
         <div className="text-white text-md mb-3">

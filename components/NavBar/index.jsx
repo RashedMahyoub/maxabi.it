@@ -47,7 +47,7 @@ const NavBar = () => {
                   <div>
                     <span className="sr-only">{t.website}</span>
                     <div className="relative h-12 w-16 sm:h-16 cursor-pointer">
-                      <Image priority src="/Logo.png" layout="fill" objectFit="contain" alt="Logo" />
+                      <Image priority src="/Logo.png" fill style={{ objectFit: "contain" }} alt="Logo" />
                     </div>
                   </div>
                 </Link>

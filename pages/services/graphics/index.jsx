@@ -25,7 +25,7 @@ const Index = () => {
           </div>
         </div>
         <div className="relative" data-aos="fade-left">
-          <Image src="/undraw_3d_modeling_h60h.svg" alt="services" layout="fill" objectFit="contain" />
+          <Image src="/undraw_3d_modeling_h60h.svg" alt="services" fill style={{ objectFit: "contain" }} />
         </div>
       </div>
 

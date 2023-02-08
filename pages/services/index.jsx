@@ -28,7 +28,7 @@ const Index = () => {
             </div>
           </div>
           <div className="flex justify-center align-middle relative h-full">
-            <Image src="/services.svg" alt="intro" layout="fill" objectFit="contain" data-aos="fade-left" />
+            <Image src="/services.svg" alt="intro" fill style={{ objectFit: "contain" }} data-aos="fade-left" />
           </div>
         </div>
 

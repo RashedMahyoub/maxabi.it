@@ -41,7 +41,7 @@ const Footer = () => {
           {/* Col-1 */}
           <div className="px-2 md:w-1/2">
             <div className="relative h-36 w-60">
-              <Image priority src="/Maxabi Logo.png" layout="fill" objectFit="contain" alt="Logo" />
+              <Image priority src="/Maxabi Logo.png" fill style={{ objectFit: "contain" }} alt="Logo" />
             </div>
             <iframe
               title="Maxabi"
@@ -106,7 +106,7 @@ const Footer = () => {
 
             <a href="https://www.dimofinf.net/en" target="_blank" rel="noopener noreferrer">
               <div className="relative h-20 w-36">
-                <Image priority src="/dimofinf.png" layout="fill" objectFit="contain" alt="Logo" />
+                <Image priority src="/dimofinf.png" alt="Logo" fill style={{ objectFit: "contain" }} />
               </div>
               <p className="text-light text-sm">
                 <strong>{t["hosting-dimo"]}</strong>

@@ -10,7 +10,7 @@ const TeamMember = ({ name, message, image, job, onPrev, onNext, hasPrev, hasNex
   return (
     <div className="p-4 bg-gray-800 rounded-xl lg:w-150 mx-3 lg:mx-0">
       <div className="w-24 h-24 relative mx-auto">
-        <Image className="rounded-full" src={image} alt={name} layout="fill" objectFit="cover" />
+        <Image className="rounded-full" src={image} alt={name} fill style={{ objectFit: "cover" }} />
       </div>
 
       <div className="font-bold my-3 text-blue-500 text-xl text-center">{name}</div>

@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { ReviewsSlider, ContactsDialog, TeamSlider } from "../components";
 import ar from "../locale/ar";
 import en from "../locale/en";
+import { ReviewsSlider, ContactsDialog, TeamSlider } from "../components";
 
 export default function Home() {
   const [showDialog, setShowDialog] = useState(false);
@@ -38,8 +38,8 @@ export default function Home() {
               className="animate-up-down"
               src="/maksabi.png"
               alt="intro"
-              layout="fill"
-              objectFit="contain"
+              fill
+              style={{ objectFit: "contain" }}
               data-aos="fade-left"
             />
           </div>

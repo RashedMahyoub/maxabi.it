@@ -16,10 +16,6 @@ function MyApp({ Component, pageProps }) {
     AOS.init({ duration: 1000 });
   }, []);
 
-  if (process.browser) {
-    require("pathseg");
-  }
-
   const particlesInit = (main) => {
     console.log(main);
   };
